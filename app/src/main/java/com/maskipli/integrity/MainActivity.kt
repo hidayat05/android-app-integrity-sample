@@ -142,7 +142,7 @@ class MainActivity : ComponentActivity() {
         val integrityManager = IntegrityManagerFactory.create(application)
         val task: Task<IntegrityTokenResponse> = integrityManager.requestIntegrityToken(
             IntegrityTokenRequest.builder()
-                .setCloudProjectNumber(673133850855) // change gcp project id here
+                .setCloudProjectNumber(0L) // todo please change gcp project id here
                 .setNonce(nonce)
                 .build()
         )

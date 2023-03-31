@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">App Integrity</string>
+    <string name="generate_token">Generate Token</string>
+    <string name="copy_token">Copy Token</string>
+</resources>
